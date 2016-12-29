@@ -1,0 +1,23 @@
+{
+  "name": "block-scroll",
+  "version": "1.0.0",
+  "description": "Fork of dominikgorecki's block scroll jQuery plugin",
+  "main": "js/blockScroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthelon/block-scroll.git"
+  },
+  "keywords": [
+    "blockscroll",
+    "jquery"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arthelon/block-scroll/issues"
+  },
+  "homepage": "https://github.com/Arthelon/block-scroll#readme"
+}

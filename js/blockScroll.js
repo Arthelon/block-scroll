@@ -212,4 +212,4 @@
 
         return on.apply(this, args);
     };
-}(this.jQuery || this.Zepto));
+}(window.jQuery));
