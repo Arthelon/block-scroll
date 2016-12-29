@@ -1,6 +1,6 @@
 {
   "name": "block-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fork of dominikgorecki's block scroll jQuery plugin",
   "main": "js/blockScroll.js",
   "scripts": {
