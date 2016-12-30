@@ -8,7 +8,8 @@
       paddingRatio : 0.05,
       triggerRatio : 0.005,
       scrollDuration: "fast",
-      fadeBlocks: true
+      fadeBlocks: true,
+      rootSelector: 'body'
     }, options );
 
     if(settings.triggerRatio > settings.paddingRatio*.95) { settings.triggerRatio = settings.paddingRatio*.95 }
@@ -123,7 +124,7 @@
         $("#block-down-arrow").show();
       activeDiv = number;
       activelyScrolling = true;
-      $('html, body').animate({scrollTop: $(theDivs[activeDiv]).offset().top}, settings.scrollDuration, 'linear', function() {
+      $(settings.rootSelector).animate({scrollTop: $(theDivs[activeDiv]).offset().top}, settings.scrollDuration, 'linear', function() {
         $(theDivs[activeDiv]).animate({opacity: 1}, settings.fadeDuration,'linear', function() { 
           setTimeout(function(){
             activelyScrolling = false; lastScrollPos = $(window).scrollTop(); 
